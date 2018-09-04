@@ -1,9 +1,10 @@
 {
   "name": "@supersoccer/misty-loader",
-  "version": "1.0.1",
+  "version": "1.1.9",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepublishOnly": "./prepublish.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,11 +13,10 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/supersoccer/node-misty-loader/issues"
-  },
-  "homepage": "https://github.com/supersoccer/node-misty-loader#readme",
   "dependencies": {
-    "@supersoccer/misty": "^1.2.14"
+    "@supersoccer/misty": "*"
+  },
+  "devDependencies": {
+    "@supersoccer/semver": "*"
   }
 }
